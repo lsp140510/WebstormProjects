@@ -53,7 +53,7 @@ html,body{
     padding-left: 20px;
     font-weight:bold;
 }
-/*-----------------------------------京东注册模块---------------------------*/
+/*-----------------------------------注册模块---------------------------*/
 .register{
 	width: 400px;
 	margin: 0 auto;
@@ -139,7 +139,7 @@ html,body{
 .register-box .tip.qiang i {
 	background: url(../images/qiang.png) no-repeat center center;
 }
-/*京东用户注册协议*/
+/*用户注册协议*/
 .register-box.xieyi{
 	width:100%;
 	height: 20px;

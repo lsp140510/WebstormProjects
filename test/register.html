@@ -3,8 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>欢迎注册</title>
-    <link rel="stylesheet" href="css/all.css"/>
-    <script src="js/my.js"></script>
+    <link rel="stylesheet" href="css/register.css"/>
+    <script src="js/register.js"></script>
     <script>
         // 1、获得焦点，内容为空，tip默认提示
         // 2、失去焦点，内容为空，tip为隐藏
@@ -19,7 +19,7 @@
 <body>
     <!--头部-->
     <div class="header">
-       //<a class="logo" href="http://www.jd.com"></a>
+       <!--<a class="logo" href="http://www.baidu.com"></a>-->
         <div class="desc">欢迎注册</div>
     </div>
     <!--版心-->
@@ -96,6 +96,13 @@
     				<span></span>
     			</div>
     		</div>
+			<div class="register-box">
+				<div class="box default">
+					<label for="idcode">验&nbsp;&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;码</label>
+					<input type="text" id="idcode" placeholder="请输入您收到的手机验证码"/>
+					<i></i>
+				</div>
+			</div>
     		 <!--注册协议-->
     		<div class="register-box xieyi">
     			<!--表单项-->
@@ -110,7 +117,9 @@
     			</div>
     		</div>
     		<!--注册-->
-    		<button id="btn">注册</button>
+    		<div>
+				<button id="btn">注册</button>
+			</div>
     	</div>
     	
     </div>
